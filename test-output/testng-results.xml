@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16516" started-at="2020-05-03T09:25:20Z" finished-at="2020-05-03T09:25:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16516" started-at="2020-05-03T09:25:20Z" finished-at="2020-05-03T09:25:37Z">
+      <class name="crmTest.SomeTest">
+        <test-method status="PASS" signature="readPropertiesFile()[pri:0, instance:crmTest.SomeTest@5c7fa833]" name="readPropertiesFile" is-config="true" duration-ms="14" started-at="2020-05-03T04:25:20Z" finished-at="2020-05-03T04:25:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readPropertiesFile -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:crmTest.SomeTest@5c7fa833]" name="launchBrowser" is-config="true" duration-ms="12002" started-at="2020-05-03T04:25:20Z" finished-at="2020-05-03T04:25:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="addAndVerifyDepositTest()[pri:2, instance:crmTest.SomeTest@5c7fa833]" name="addAndVerifyDepositTest" duration-ms="4478" started-at="2020-05-03T04:25:32Z" finished-at="2020-05-03T04:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAndVerifyDepositTest -->
+      </class> <!-- crmTest.SomeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
